@@ -1,0 +1,14 @@
+{
+  "name": "clear-unused-assets",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Detect and delete unused assets that are no more attached. Allow to choose which ones to delete and which ones to keep.",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --external:obsidian --format=cjs --platform=browser --target=es2018 --outfile=main.js",
+    "check": "npm run build && node --check main.js",
+    "test": "node --test ut/*.test.js"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "clear-unused-assets",
+  "name": "clear-unused-assets",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Detect and delete unused assets that are no more attached. Allow to choose which ones to delete and which ones to keep.",
+  "author": "QuincyLeo",
+  "isDesktopOnly": true
+}
